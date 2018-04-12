@@ -1,0 +1,21 @@
+package comum;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.List;
+
+public class IServicoRemoto extends UnicastRemoteObject implements ServicoRemotoImpl {
+
+	@Override
+	public void incluir(Veterinario v) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Veterinario> listarVeterinario() throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
